@@ -1,11 +1,11 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 package_name = 'super_Tolchanov_Dmitriy_study_pkg'
 
 setup(
     name=package_name,
     version='0.0.0',
-    packages=find_packages(exclude=['test']),
+    packages=[package_name, package_name + '.scripts'],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -13,7 +13,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='bar1s',
+    maintainer='Tam1d',
     maintainer_email='tamid777@mail.ru',
     description='TODO: Package description',
     license='TODO: License declaration',
@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'time_printer = super_Tolchanov_Dmitriy_study_pkg.scripts.time_printer:main',
         ],
     },
 )
