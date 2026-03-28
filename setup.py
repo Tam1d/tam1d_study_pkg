@@ -1,11 +1,11 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 package_name = 'tam1d_study_pkg'
 
 setup(
     name=package_name,
     version='0.0.0',
-    packages=find_packages(exclude=['test']),
+    packages=[package_name, package_name + '.scripts'],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='igsp-01',
-    maintainer_email='igsp-01@todo.todo',
+    maintainer='Tam1d',
+    maintainer_email='tamid777@mail.ru',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
