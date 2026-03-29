@@ -6,6 +6,12 @@ from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
 def generate_launch_description():
+    mode_arg = DeclareLaunchArgument(
+        'mode',
+        default_value='None',
+        description='Режим работы узла публикации'
+    )
+    
     freq_arg = DeclareLaunchArgument(
         'publish_frequency',
         default_value='8.0',
@@ -41,6 +47,8 @@ def generate_launch_description():
         default_value='overflow_listener',
         description='Название узла для прослушивания',
     )
+    
+    mode = LaunchConfiguration('mode')
 
     frequency = LaunchConfiguration('publish_frequency')
     threshold = LaunchConfiguration('overflow_threshold')
@@ -58,12 +66,14 @@ def generate_launch_description():
         overflow_topic_arg,
         publisher_node_arg,
         listener_node_arg,
+        mode_arg,
         
         Node(
             package='super_Tolchanov_Dmitriy_study_pkg',
             executable='even_number_publisher',
             name=publisher_node,
             parameters=[
+                {'mode': mode},
                 {'publish_frequency': frequency},
                 {'overflow_threshold': threshold},
                 {'topic_name': topic},

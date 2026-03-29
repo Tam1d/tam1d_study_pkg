@@ -1,0 +1,5 @@
+  File "/home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg/scripts/even_number_publisher.py", line 27
+    else
+        ^
+SyntaxError: expected ':'
+

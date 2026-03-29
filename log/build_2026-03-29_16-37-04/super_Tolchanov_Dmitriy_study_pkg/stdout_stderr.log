@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing super_Tolchanov_Dmitriy_study_pkg.egg-info/PKG-INFO
+writing dependency_links to super_Tolchanov_Dmitriy_study_pkg.egg-info/dependency_links.txt
+writing entry points to super_Tolchanov_Dmitriy_study_pkg.egg-info/entry_points.txt
+writing requirements to super_Tolchanov_Dmitriy_study_pkg.egg-info/requires.txt
+writing top-level names to super_Tolchanov_Dmitriy_study_pkg.egg-info/top_level.txt
+reading manifest file 'super_Tolchanov_Dmitriy_study_pkg.egg-info/SOURCES.txt'
+writing manifest file 'super_Tolchanov_Dmitriy_study_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super-Tolchanov-Dmitriy-study-pkg.egg-link (link to .)
+Installing even_number_publisher script to /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/super_Tolchanov_Dmitriy_study_pkg
+Installing overflow_listener script to /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/super_Tolchanov_Dmitriy_study_pkg
+Installing time_printer script to /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/super_Tolchanov_Dmitriy_study_pkg
+
+Installed /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg
+running symlink_data
+symbolically linking /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/resource/super_Tolchanov_Dmitriy_study_pkg -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/package.xml -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg
+symbolically linking /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/launch/my_first_launch.py -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg/launch
+symbolically linking /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/launch/robot_system.launch.py -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg/launch

@@ -8,14 +8,27 @@ class Talker(Node):
     def __init__(self):
         super().__init__('None')
         
+        self.declare_parameter('mode', 'None')
         self.declare_parameter('publish_frequency', 10.0)
         self.declare_parameter('overflow_threshold', 100)
         self.declare_parameter('topic_name', 'even_numbers')
         self.declare_parameter('overflow_topic_name', 'overflow')
         
-        self.freq = self.get_parameter('publish_frequency').value
-        self.threshold = self.get_parameter('overflow_threshold').value
-        self.topic = self.get_parameter('topic_name').value
+        self.mode = self.get_parameter('mode').value
+        
+        if self.mode == 'fast':
+            self.freq = 20
+            self.threshold = 50
+            self.topic = 'even_numbers_fast'
+        elif self.mode == 'slow':
+            self.freq = 5
+            self.threshold = 150
+            self.topic = 'even_numbers_slow'
+        else:
+            self.freq = self.get_parameter('publish_frequency').value
+            self.threshold = self.get_parameter('overflow_threshold').value
+            self.topic = self.get_parameter('topic_name').value
+            
         self.overflow_topic = self.get_parameter('overflow_topic_name').value
 
         self.publisher = self.create_publisher(Int32, self.topic, 10)

@@ -4,3 +4,6 @@ source;share/super_Tolchanov_Dmitriy_study_pkg/hook/pythonpath.sh
 source;share/super_Tolchanov_Dmitriy_study_pkg/hook/ament_prefix_path.ps1
 source;share/super_Tolchanov_Dmitriy_study_pkg/hook/ament_prefix_path.dsv
 source;share/super_Tolchanov_Dmitriy_study_pkg/hook/ament_prefix_path.sh
+source;../../build/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg/hook/pythonpath_develop.ps1
+source;../../build/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg/hook/pythonpath_develop.dsv
+source;../../build/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg/hook/pythonpath_develop.sh

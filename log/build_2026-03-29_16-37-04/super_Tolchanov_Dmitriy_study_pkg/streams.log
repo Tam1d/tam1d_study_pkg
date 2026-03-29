@@ -1,0 +1,23 @@
+[0.887s] Invoking command in '/home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build --no-deps symlink_data --force
+[1.245s] running develop
+[1.498s] running egg_info
+[1.523s] writing super_Tolchanov_Dmitriy_study_pkg.egg-info/PKG-INFO
+[1.523s] writing dependency_links to super_Tolchanov_Dmitriy_study_pkg.egg-info/dependency_links.txt
+[1.523s] writing entry points to super_Tolchanov_Dmitriy_study_pkg.egg-info/entry_points.txt
+[1.524s] writing requirements to super_Tolchanov_Dmitriy_study_pkg.egg-info/requires.txt
+[1.524s] writing top-level names to super_Tolchanov_Dmitriy_study_pkg.egg-info/top_level.txt
+[1.575s] reading manifest file 'super_Tolchanov_Dmitriy_study_pkg.egg-info/SOURCES.txt'
+[1.575s] writing manifest file 'super_Tolchanov_Dmitriy_study_pkg.egg-info/SOURCES.txt'
+[1.601s] running build_ext
+[1.601s] Creating /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super-Tolchanov-Dmitriy-study-pkg.egg-link (link to .)
+[1.602s] Installing even_number_publisher script to /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/super_Tolchanov_Dmitriy_study_pkg
+[1.602s] Installing overflow_listener script to /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/super_Tolchanov_Dmitriy_study_pkg
+[1.602s] Installing time_printer script to /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/super_Tolchanov_Dmitriy_study_pkg
+[1.602s] 
+[1.602s] Installed /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg
+[1.602s] running symlink_data
+[1.603s] symbolically linking /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/resource/super_Tolchanov_Dmitriy_study_pkg -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/ament_index/resource_index/packages
+[1.603s] symbolically linking /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/package.xml -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg
+[1.603s] symbolically linking /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/launch/my_first_launch.py -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg/launch
+[1.603s] symbolically linking /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/launch/robot_system.launch.py -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg/launch
+[1.629s] Invoked command in '/home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build --no-deps symlink_data --force
