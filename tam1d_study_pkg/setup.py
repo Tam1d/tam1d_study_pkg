@@ -25,6 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'first_node = tam1d_study_pkg.scripts.first_node:main',
+            'talker = tam1d_study_pkg.scripts.talker:main',
+            'listener = tam1d_study_pkg.scripts.listener:main',
         ],
     },
 )
