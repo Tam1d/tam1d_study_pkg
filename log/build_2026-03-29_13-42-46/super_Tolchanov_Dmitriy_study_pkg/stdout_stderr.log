@@ -1,0 +1,46 @@
+running egg_info
+creating ../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info
+writing ../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info/entry_points.txt
+writing requirements to ../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info/requires.txt
+writing top-level names to ../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info/top_level.txt
+writing manifest file '../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build
+creating /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build/lib
+creating /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build/lib/super_Tolchanov_Dmitriy_study_pkg
+copying super_Tolchanov_Dmitriy_study_pkg/__init__.py -> /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build/lib/super_Tolchanov_Dmitriy_study_pkg
+creating /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build/lib/super_Tolchanov_Dmitriy_study_pkg/scripts
+copying super_Tolchanov_Dmitriy_study_pkg/scripts/even_number_publisher.py -> /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build/lib/super_Tolchanov_Dmitriy_study_pkg/scripts
+copying super_Tolchanov_Dmitriy_study_pkg/scripts/time_printer.py -> /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build/lib/super_Tolchanov_Dmitriy_study_pkg/scripts
+running install
+running install_lib
+creating /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg
+creating /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg/scripts
+copying /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build/lib/super_Tolchanov_Dmitriy_study_pkg/scripts/even_number_publisher.py -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg/scripts
+copying /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build/lib/super_Tolchanov_Dmitriy_study_pkg/scripts/time_printer.py -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg/scripts
+copying /home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/build/lib/super_Tolchanov_Dmitriy_study_pkg/__init__.py -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg
+byte-compiling /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg/scripts/even_number_publisher.py to even_number_publisher.cpython-312.pyc
+  File "/home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg/scripts/even_number_publisher.py", line 26
+    else 
+         ^
+SyntaxError: expected ':'
+
+byte-compiling /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg/scripts/time_printer.py to time_printer.cpython-312.pyc
+byte-compiling /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/ament_index
+creating /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/ament_index/resource_index
+creating /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/ament_index/resource_index/packages
+copying resource/super_Tolchanov_Dmitriy_study_pkg -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/share/super_Tolchanov_Dmitriy_study_pkg
+running install_egg_info
+Copying ../build/super_Tolchanov_Dmitriy_study_pkg/super_Tolchanov_Dmitriy_study_pkg.egg-info to /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/python3.12/site-packages/super_Tolchanov_Dmitriy_study_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing even_number_publisher script to /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/super_Tolchanov_Dmitriy_study_pkg
+Installing time_printer script to /home/bar1s/ros2_ws/src/install/super_Tolchanov_Dmitriy_study_pkg/lib/super_Tolchanov_Dmitriy_study_pkg
+writing list of installed files to '/home/bar1s/ros2_ws/src/build/super_Tolchanov_Dmitriy_study_pkg/install.log'

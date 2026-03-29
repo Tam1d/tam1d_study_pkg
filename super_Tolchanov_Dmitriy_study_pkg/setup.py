@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'time_printer = super_Tolchanov_Dmitriy_study_pkg.scripts.time_printer:main',
             'even_number_publisher = super_Tolchanov_Dmitriy_study_pkg.scripts.even_number_publisher:main',
+            'overflow_listener = super_Tolchanov_Dmitriy_study_pkg.scripts.overflow_listener:main',
         ],
     },
 )
