@@ -1,0 +1,5 @@
+ros2 run super_Tolchanov_Dmitriy_study_pkg even_number_publisher --ros-args -r __ns:=/thread1
+ros2 run super_Tolchanov_Dmitriy_study_pkg even_number_publisher --ros-args -r __ns:=/thread2
+
+ros2 run super_Tolchanov_Dmitriy_study_pkg overflow_listener --ros-args -r __ns:=/thread1
+ros2 run super_Tolchanov_Dmitriy_study_pkg overflow_listener --ros-args -r __ns:=/thread2
