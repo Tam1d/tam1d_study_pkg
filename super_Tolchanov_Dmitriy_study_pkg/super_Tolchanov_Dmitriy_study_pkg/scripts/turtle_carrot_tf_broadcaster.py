@@ -23,7 +23,7 @@ class TurtleCarrotBroadcaster(Node):
         t.header.frame_id = 'turtle1'
         t.child_frame_id = 'carrot'
 
-        self.angle += 0.05
+        self.angle -= 0.05
         t.transform.translation.x = self.radius * math.cos(self.angle)
         t.transform.translation.y = self.radius * math.sin(self.angle)
         t.transform.translation.z = 0.0

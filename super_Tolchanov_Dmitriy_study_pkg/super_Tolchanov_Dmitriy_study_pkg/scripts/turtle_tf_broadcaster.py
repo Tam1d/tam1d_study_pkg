@@ -11,8 +11,7 @@ class TurtleTFPublisher(Node):
         super().__init__('turtle_tf_publisher')
         self.br = TransformBroadcaster(self)
         
-        self.subscription = self.create_subscription(
-            Pose, '/turtle1/pose', self.handle_turtle_pose, 10)
+        self.subscription = self.create_subscription(Pose, '/turtle1/pose', self.handle_turtle_pose, 10)
 
     def handle_turtle_pose(self, msg):
         t = TransformStamped()

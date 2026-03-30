@@ -1,0 +1,11 @@
+source /opt/ros/jazzy/setup.bash
+
+cd ~/ros2_ws
+colcon build --packages-select super_Tolchanov_Dmitriy_study_pkg
+source install/setup.bash
+
+ros2 run turtlesim turtlesim_node -- запуск симулятора черепахи
+ros2 run turtlesim turtle_teleop_key -- запуск управления черепахой по стрелочкам
+ros2 run super_Tolchanov_Dmitriy_study_pkg carrot_broadcaster
+ros2 run super_Tolchanov_Dmitriy_study_pkg turtle_broadcaster
+ros2 run rviz2 rviz2
