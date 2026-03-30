@@ -3,3 +3,6 @@ ros2 run super_Tolchanov_Dmitriy_study_pkg even_number_publisher --ros-args -r _
 
 ros2 run super_Tolchanov_Dmitriy_study_pkg overflow_listener --ros-args -r __ns:=/thread1
 ros2 run super_Tolchanov_Dmitriy_study_pkg overflow_listener --ros-args -r __ns:=/thread2
+
+
+ros2 launch super_Tolchanov_Dmitriy_study_pkg robot_system.launch.py publish_frequency:=2.0 overflow_threshold:=55 topic_name:=ff overflow_topic_name:=gg publisher_node_name:=John listener_node_name:=Mike

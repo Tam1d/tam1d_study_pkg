@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+from tf2_ros import TransformBroadcaster
+from geometry_msgs.msg import TransformStamped
+import math
+
+class TurtleCarrotBroadcaster(Node):
+    def __init__(self):
+        super().__init__('turtle_carrot_tf_broadcaster')
+
+        # Инициализируем бродкастер
+        self.tf_broadcaster = TransformBroadcaster(self)
+
+        # Таймер для обновления позиции морковки (30 Гц)
+        self.timer = self.create_timer(0.033, self.broadcast_carrot_tf)
+        
+        self.angle = 0.0  # Текущий угол вращения морковки
+        self.radius = 1.0 # Радиус орбиты морковки
+
+    def broadcast_carrot_tf(self):
+        t = TransformStamped()
+
+        t.header.stamp = self.get_clock().now().to_msg()
+        t.header.frame_id = 'turtle1'      # Родительский фрейм — черепашка
+        t.child_frame_id = 'carrot'      # Дочерний фрейм — морковка
+
+        # Рассчитываем круговое движение в плоскости XY
+        self.angle += 0.05 # Скорость вращения
+        t.transform.translation.x = self.radius * math.cos(self.angle)
+        t.transform.translation.y = self.radius * math.sin(self.angle)
+        t.transform.translation.z = 0.0
+
+        # Морковка не вращается вокруг своей оси (единичный кватернион)
+        t.transform.rotation.x = 0.0
+        t.transform.rotation.y = 0.0
+        t.transform.rotation.z = 0.0
+        t.transform.rotation.w = 1.0
+
+        # Публикуем трансформацию
+        self.tf_broadcaster.sendTransform(t)
+
+def main():
+    rclpy.init()
+    node = TurtleCarrotBroadcaster()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

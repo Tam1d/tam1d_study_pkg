@@ -4,7 +4,6 @@ import time
 
 
 class MyTimer(Node):
-
     def __init__(self):
         super().__init__('time_printer')
         self.timer = self.create_timer(5.0, self.timer_callback)

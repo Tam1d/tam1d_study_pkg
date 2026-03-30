@@ -1,1 +1,0 @@
-/home/bar1s/ros2_ws/src/super_Tolchanov_Dmitriy_study_pkg/setup.py
